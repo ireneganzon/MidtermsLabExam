@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>   <!-- Ensures the project is a Windows application -->
+    <TargetFramework>net7.0-windows</TargetFramework> <!-- You can change the version if needed -->
+    <UseWPF>false</UseWPF> <!-- We don't need WPF here -->
+    <UseWindowsForms>true</UseWindowsForms> <!-- Tells the project to use Windows Forms -->
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+  </ItemGroup>
+</Project>
